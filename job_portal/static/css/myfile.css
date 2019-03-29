@@ -1,0 +1,21 @@
+#box1, #box2 {
+    width: 200px;
+    height: 100px;
+    position: relative;
+    display: inline-block;
+}
+
+#box1 {
+    background: #00FFFF;
+}
+
+#box2 {
+    background: #FF00FF;
+}
+h1{
+text-align:center;font-size:90 px;
+}
+body{
+background-image:url(https://www.movivan.co.uk/wp-content/uploads/2015/08/clean-white-grey-paper-background.jpg)
+
+}

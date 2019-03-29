@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+{%load staticfiles%}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JOB PORTAL</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="{%static 'css/myfile.css'%}">
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-inverse">
+     <div class="container-fluid">
+     <div class="navbar-header">
+         <a class="navbar-brand" href="/">JOB PORTAL</a>
+         <a class="navbar-brand" href="/">HOME</a
+     </div>
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="/fresher">tell us about yourself.</a></li>
+
+        </ul>
+  </div>
+</nav>
+
+
+             <p> .......signup here:- </p>
+            <li><a href="/fresher">fresher Resister</a></li>
+            <li><a href="/professional">professional resister</a></li>
+
+{% block body_block%}
+{% endblock%}
+</body>
+</html>
